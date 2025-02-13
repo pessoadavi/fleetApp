@@ -13,19 +13,20 @@
       "backgroundColor": "#202024"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pessoadavim.fleetcar"
     },
     "android": {
+      "package": "com.pessoadavim.fleetcar",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#202024"
-      }
+      },
+      "package": "com.anonymous.fleetApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-font"
-    ]
+    "plugins": ["expo-font"]
   }
 }
